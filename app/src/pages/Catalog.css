@@ -1,0 +1,15 @@
+.catalog {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(197, 213, 219);
+}
+
+.container {
+    width: 80%;
+}
+
+.catalog h1 {
+    color: darkcyan;
+    margin: 0;
+}

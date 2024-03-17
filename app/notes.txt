@@ -1,0 +1,6 @@
+Components:
+- are functions
+- start with a capital letter
+- should always return something
+- are usually exported
+ 

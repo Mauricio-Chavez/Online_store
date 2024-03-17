@@ -1,0 +1,15 @@
+.navbar{
+    height: 56px;
+    background-color: rgb(71, 71, 71);
+    
+}
+
+.navbar h1 {
+    color: white;
+    margin: 0;
+}
+
+.navbar button {
+    font-weight: bold;
+}
+
