@@ -59,13 +59,9 @@ function Catalog() {
         <div className="catalog page">
             <div className="container">
             <h1>Our Amazing Catalog</h1>
-            <Product info={data[0]}/>
-            <Product info={data[1]}/>
-            <Product info={data[2]}/>
-            <Product info={data[3]}/>
-            <Product info={data[4]}/>
-            <Product info={data[5]}/>
-            <Product info={data[6]}/>
+            {
+                data.map((prod) => (<Product key={prod._id} info={prod}/>))
+            }
             </div>
         </div>
     )
