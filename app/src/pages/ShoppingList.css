@@ -1,0 +1,42 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+
+
+.shopping-list ul {
+    display: flex;
+    flex-direction: column;
+    border: darkcyan 2px solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    justify-content: left;
+}
+
+.shopping-list ul li {
+    text-align: left;
+}
+
+.shopping-list ul h3 {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(5, 20, 34);
+
+}
+
+.shopping-list .title {
+    margin: 20px 0;
+}
+
+.inp {
+    height: 35px;
+    margin: 0 auto;
+    border: 1px solid darkcyan;
+    border-radius: 4px;
+}
