@@ -1,0 +1,14 @@
+.admin .parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.admin .parent .prods{
+    flex: 2;
+}
+.admin .parent .cupons{
+    flex: 1;
+}
+.admin h1{
+    color: darkcyan;
+}
