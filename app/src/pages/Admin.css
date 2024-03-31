@@ -5,10 +5,43 @@
 }
 .admin .parent .prods{
     flex: 2;
+    margin: 0 20px;
 }
 .admin .parent .cupons{
     flex: 1;
+    margin: 0 20px;
 }
 .admin h1{
     color: darkcyan;
+}
+.admin .form{
+    border: 1px solid darkcyan;
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+}
+.admin .form div{
+    margin-bottom: 10px;
+}
+.admin ul {
+    text-align: left;
+    min-height: 300px;
+    border: 1px solid darkcyan;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 0;
+}
+.admin ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid darkcyan;
+    border-radius: 0 0 10px 10px;
+}
+.admin .prods ul {
+    min-height: 250px;
+
+}
+.admin .cupons ul {
+    min-height: 420px;
+
 }
