@@ -9,8 +9,11 @@ import ShoppingList from './pages/ShoppingList';
 import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import Home from './pages/Home';
 import Admin from './pages/Admin';
+import GlobalProvider from './context/GlobalProvider';
+
 function App() {
   return (
+    <GlobalProvider >
     <BrowserRouter>
       <div className="App">
         <Navbar />
@@ -27,6 +30,7 @@ function App() {
         <Footer />
       </div>
     </BrowserRouter>
+    </GlobalProvider>
   );
 }
 

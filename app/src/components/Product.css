@@ -5,7 +5,7 @@
 
     display: inline-block;
     width: 300px;
-    height: 380px;
+    min-height: 410px;
     border-radius: 4px;
     margin: 0 7px 12px 0;
 }
@@ -29,4 +29,12 @@ img {
     display: flex;
     justify-content: flex-end;
     width: 95%;
+}
+.product .total{
+    display: block;
+    color: red;
+    font-weight: bold;
+}
+.product .total b{
+    color: black;
 }
