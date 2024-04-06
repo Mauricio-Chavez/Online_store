@@ -10,6 +10,7 @@ import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import Home from './pages/Home';
 import Admin from './pages/Admin';
 import GlobalProvider from './context/GlobalProvider';
+import Cart from './pages/Cart';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/shoppinglist' element={<ShoppingList />} /> 
           <Route path='/admin' element={<Admin/>} />
+          <Route path= '/cart' element={<Cart/>} />
         </Routes>
         
         <Footer />

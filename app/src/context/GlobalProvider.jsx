@@ -9,7 +9,12 @@ function GlobalProvider(props) {
         copy.push(prod);
         setCart(copy);
     }
-    function removeProductFromCart() {}
+    function removeProductFromCart(data) {
+        //remove data from cart
+        var copy = [...cart];
+        copy = copy.filter((prod) => prod._id !== data._id);
+        setCart(copy);
+    }
     return (
         <DataContext.Provider value={{
             cart: cart,

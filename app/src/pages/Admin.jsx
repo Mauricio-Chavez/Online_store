@@ -67,14 +67,14 @@ function Admin() {
                         <button type='submit' className='btn btn-outline-success' onClick={saveProduct}>Add Product</button>
                     </form>
                     <ul>
-                    <h3>List the Products</h3>
+                    <h3 className='margin-corr'>List the Products</h3>
                         {allProducts.map( p => <li ><b>Name: </b>{p.title} - <b>Price:</b> ${p.price} - <b>Category:</b> {p.category} - <b>Image:</b> {p.image}</li>)}
                     </ul>
                 </div>
                 <div className='cupons'>
                     
                     <form action="" className='form'>
-                        <h3>Coupons</h3>
+                        <h3 >Coupons</h3>
                         <div className='mb-3'>
                             <label className='form-label'>Coupon Code</label>
                             <input type="text" className='form-control' onChange={handleCouponChange} name='code'/>
@@ -86,7 +86,7 @@ function Admin() {
                         <button type='submit' className='btn btn-outline-success' onClick={saveCoupon}>Save Coupon</button>
                     </form>
                     <ul>
-                    <h3>List the Coupons</h3>
+                        <h3 className='margin-corr'>List the Coupons</h3>
                         {allCoupons.map( c => <li ><b>Code: </b>{c.code} - <b>Discount:</b> {c.discount}% </li>)}
                     </ul>
                 </div>

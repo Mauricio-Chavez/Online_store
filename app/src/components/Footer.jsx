@@ -3,8 +3,8 @@ import "./Footer.css"
 function Footer() {
     return (
     <div className='fo'>
-        <h6>Stark Store</h6>
-        <h4>By Anthony Stark</h4>
+        <h6>Organik Store</h6>
+        <h4>By Mauricio Chavez</h4>
     </div>
     )
 }

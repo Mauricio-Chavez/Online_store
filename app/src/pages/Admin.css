@@ -15,7 +15,7 @@
     color: darkcyan;
 }
 .admin .form{
-    border: 1px solid darkcyan;
+    border: 1px solid gray;
     padding: 10px;
     text-align: left;
     border-radius: 10px;
@@ -26,7 +26,7 @@
 .admin ul {
     text-align: left;
     min-height: 300px;
-    border: 1px solid darkcyan;
+    border: 1px solid gray;
     border-radius: 10px;
     margin-top: 20px;
     padding-left: 0;
@@ -34,14 +34,17 @@
 .admin ul li {
     list-style: none;
     padding: 10px;
-    border-bottom: 1px solid darkcyan;
-    border-radius: 0 0 10px 10px;
+    border-bottom: 1px solid gray;
 }
 .admin .prods ul {
-    min-height: 250px;
-
+    height: 250px;
+    overflow-y: scroll;
 }
 .admin .cupons ul {
-    min-height: 420px;
-
+    height: 420px;
+    overflow-y: scroll;
+}
+.admin .margin-corr{
+    margin-top: 1rem;
+    margin-left: 1rem;
 }

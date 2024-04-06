@@ -8,7 +8,7 @@ import constants from '../common/config'
 function Home() {
     return (
         <div className='home page'>
-            <h3>Welcome to Stark Store</h3>
+            <h3>Organik Store</h3>
             <div className='flex-container'>
                 <div className='carts-container'>
                     {data.slice(0, 4).map((prod) => (<Product key={prod._id} info={prod} />))}

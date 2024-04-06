@@ -9,11 +9,21 @@ import { useContext } from 'react'
 function Navbar() {
     
     const cart = useContext(DataContext).cart;
+    console.log(cart);
+
+    function getNumProducts(){
+        let total = 0;
+        for (let i = 0; i < cart.length; i++){
+            total += cart[i].quantity;
+        }
+        return total;
+    }
+
     return (
             <nav className="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme='dark'>
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/home">
-                        Stark Store
+                        Organik Store
                     </Link>
                     <button
                         className="navbar-toggler"
@@ -56,9 +66,9 @@ function Navbar() {
                         </ul>
                         <div className="d-flex" role="search">
                             
-                            <button className="btn btn-outline-light" type="button">
-                                <FontAwesomeIcon icon={faShoppingCart} /> {cart.length}
-                            </button>
+                            <Link className="btn btn-outline-light" type="button" to={'/cart'}>
+                                <FontAwesomeIcon icon={faShoppingCart} /> {getNumProducts()}
+                            </Link>
                         </div>
                     </div>
                 </div>

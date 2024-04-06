@@ -1,0 +1,86 @@
+.cart {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cart .title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem 0;
+    color: darkcyan;
+}
+
+.cart .numProducts {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.cart .numProducts {
+    color: rgb(3, 5, 80);
+    border-bottom: rgb(180, 180, 180) 2px solid;
+    margin-bottom: 2rem;
+}
+
+.cart .numProducts span {
+    color: darkcyan;
+}
+
+
+.cart .prod-cart {
+    border: 1px solid #333;
+    background-color: white;
+    margin-bottom: 7px;
+}
+
+
+.cart .total h4 {
+    width: 100%;
+}
+
+.cart .parent {
+    display: flex;
+}
+
+.cart .list {
+    flex: 3;
+}
+
+.cart .total {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.cart .total label {
+    color: green;
+    font-size: 4rem;
+}
+
+.cart .total {
+    color: red;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.cart .totalM {
+    margin-top: 2rem;
+    border-top: rgb(180, 180, 180) 2px solid;
+    display: flex;
+    justify-content: right;
+}
+
+.cart .totalM label {
+    font-size: 1.4rem;
+    margin-top: 0;
+    color: green;
+    font-weight: 600;
+}
+
+.cart .totalM h4 {
+    color: red;
+    margin-right: 15px;
+}

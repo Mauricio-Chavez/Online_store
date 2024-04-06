@@ -1,5 +1,12 @@
 .about {
-    background-color: #fafafa;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.about img {
+    max-width: 100%;
 }
 
 .about h3 {
@@ -15,4 +22,92 @@
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.founder-container {
+    width: 50%;
+}
+
+.founder-container img {
+    border-radius: 1rem;
+}
+
+.title-style {
+    width: 100%;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.title-style h1 {
+    margin-bottom: 0;
+}
+
+.text-founder {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    margin: 1rem 6rem;
+    text-align: left;
+}
+
+.contact a {
+    color: #523e2a;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.contact {
+    list-style: none;
+}
+
+.flex-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact p {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+
+.founder-details {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.founder-details p {
+    text-align: justify;
+    font-size: 2rem;
+}
+
+.founder-details h2 {
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+.founder-details h3 {
+    font-size: 2.5rem;
+    color: rgb(104, 1, 1);
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 1.5rem 0;
+}
+
+.flex-contact-social {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
 }
