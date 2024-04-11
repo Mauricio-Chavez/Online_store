@@ -1,11 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Home.css'
 import { Link } from 'react-router-dom'
-import { data } from './Catalog'
 import Product from '../components/Product'
 import constants from '../common/config'
+import DataService from '../services/dataService'
 
 function Home() {
+    const [data, setData] = useState([]);
+    async function loadCatalog(){
+        let service = new DataService();
+        let cat = await service.getCatalog()
+        setData(cat);
+    }
+    useEffect(() => {
+        loadCatalog();
+    }, [])
     return (
         <div className='home page'>
             <h3>Organik Store</h3>
